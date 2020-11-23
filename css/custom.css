@@ -1,0 +1,151 @@
+.btn-primary {
+    background: #faad49;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: rgb(255, 205, 130);
+    border: 0;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px solid #BCD0E5;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 1px solid rgb(168, 193, 221);
+    color: #173A56;
+}
+
+.herobwa h1 {
+    /* font-family: 'Poppins'; */
+    font-weight: 700;
+    color: #2F281E;
+}
+
+.herobwa p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #2F281E;
+}
+
+.navbar-nav .nav-link {
+    color: #2F281E;
+}
+
+/* Popular Design */
+.section-popular{
+    margin-top: -50px;
+    min-height: 500px;
+    background-color: #ffffff;
+}
+.section-popular-heading{
+    margin-top: 120px;
+}
+.section-popular-heading h2{
+    font-weight: 700;
+    font-size: 32px;
+    color: #2F281E;
+}
+.section-popular-heading p{
+    font-size: 18px;
+    color: #2F281E;
+}
+
+/* Card Design Popular */
+.section-popular-content{
+    min-height: 100px;
+    color: #ffffff;
+}
+.section-popular-content .card-design{
+    border-radius: 10%;
+        margin-top: -250px;
+        min-height: 250px;
+        bg-color: #dddddd;
+        color:#ffffff;
+        padding: 35px;
+        background-size: cover;
+}
+.head-design{
+    font-weight: bold;
+    font-size: 20px;
+    color:#2F281E;
+}
+.content-design{
+    font-weight: bold;
+    font-size: 16px;
+    color: #2F281E;
+}
+/* Testimonial Users */
+.section-testimonial-heading{
+    margin-top: 120px;
+    min-height: 500px;
+    background-color: linear-gradient(#fff 0%,#f7f9ff 100%);
+}
+.section-testimonial-heading h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: #2F281E;
+}
+.section-testimonial-heading p{
+    font-size: 18px;
+    color: #2F281E;
+}
+
+/* Testimonial Content */
+.section-testimonial-content{
+    margin-top: -350px;
+    min-height: 500px;
+}
+.section-testimonial-content .card-testimonial{
+    min-height: 370px;
+}
+.card-testimonial{
+    padding-top: 40px;
+}
+.card-testimonial h3{
+    font-size: 25px;
+    color: #2F281E;
+}
+.card-testimonial p{
+    font-size: 15px;
+    color: #2F281E;
+}
+/* Button footer */
+.button-foot{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.btn-get-started{
+    background-color: #faad49;
+    color: #fff;
+}
+.btn-get-started:hover{
+    background-color: rgb(247, 191, 88);
+    color: #fff;
+}
+.btn-need-help{
+    background-color: #f2f2f2;
+    color: #c3c3c3;
+}
+.btn.btn-need-help:hover{
+    background-color: #fafafa;
+    color: #c3c3c3;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .btn-primary, .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+}
